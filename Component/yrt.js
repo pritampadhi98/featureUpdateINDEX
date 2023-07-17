@@ -1,0 +1,100 @@
+export const data = [
+  {
+    category_id: 6,
+    parent_id: null,
+    name: "Western Wear",
+    slug: "western-wear",
+    sort_order: 0,
+    subCategoryData: [
+      {
+        category_id: 7,
+        parent_id: 6,
+        name: "Jumpsuite and Rompers",
+        slug: "jumpsuite-and-rompers",
+        sort_order: 0,
+        subSubCategoryData: [
+          {
+            category_id: 10,
+            parent_id: 7,
+            name: "Rompers",
+            slug: "rompers",
+            sort_order: 0,
+          },
+          {
+            category_id: 11,
+            parent_id: 7,
+            name: "Jumpsuite",
+            slug: "jumpsuite",
+            sort_order: 0,
+          },
+        ],
+      },
+      {
+        category_id: 8,
+        parent_id: 6,
+        name: "Dresses",
+        slug: "dresses",
+        sort_order: 0,
+        subSubCategoryData: [
+          {
+            category_id: 9,
+            parent_id: 8,
+            name: "Dress",
+            slug: "dress",
+            sort_order: 0,
+          },
+        ],
+      },
+    ],
+  },
+  {
+    category_id: 7,
+    parent_id: 6,
+    name: "Jumpsuite and Rompers",
+    slug: "jumpsuite-and-rompers",
+    sort_order: 0,
+    subCategoryData: [
+      {
+        category_id: 10,
+        parent_id: 7,
+        name: "Rompers",
+        slug: "rompers",
+        sort_order: 0,
+        subSubCategoryData: [],
+      },
+      {
+        category_id: 11,
+        parent_id: 7,
+        name: "Jumpsuite",
+        slug: "jumpsuite",
+        sort_order: 0,
+        subSubCategoryData: [],
+      },
+    ],
+  },
+  {
+    category_id: 8,
+    parent_id: 6,
+    name: "Dresses",
+    slug: "dresses",
+    sort_order: 0,
+    subCategoryData: [
+      {
+        category_id: 9,
+        parent_id: 8,
+        name: "Dress",
+        slug: "dress",
+        sort_order: 0,
+        subSubCategoryData: [],
+      },
+    ],
+  },
+  {
+    category_id: 9,
+    parent_id: 8,
+    name: "Dress",
+    slug: "dress",
+    sort_order: 0,
+    subCategoryData: [],
+  },
+];
